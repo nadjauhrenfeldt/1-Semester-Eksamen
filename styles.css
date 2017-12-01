@@ -94,16 +94,6 @@ nav ul ul li {
   color: black;
 }
 
-.banner-text button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 10px 25px;
-  color: black;
-  background-color: #ddd;
-  text-align: center;
-  cursor: pointer;
-}
 
 /* Button "Se mit arbejde" */
 .button {
@@ -114,7 +104,7 @@ nav ul ul li {
 	margin: auto;
 	text-decoration: none;
 	color: black;
-	border-radius: 15px;
+	border-radius: 20px;
 }
 
 .banner-text .button:hover {

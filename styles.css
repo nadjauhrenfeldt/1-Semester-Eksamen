@@ -16,7 +16,7 @@ h1 {
 body {
 	background: #ffffff;
 	font-family: 'Lato', sans-serif;
-	color: white;
+	color: black;
 	margin: 0;
 	padding: 0;
 }
@@ -105,7 +105,30 @@ nav ul ul li {
   cursor: pointer;
 }
 
-.banner-text button:hover {
+/* Button "Se mit arbejde" */
+.button {
+	display: block;
+	padding: 10px 15px;
+	background-color: white;
+	width: 30%;
+	margin: auto;
+	text-decoration: none;
+	color: black;
+	border-radius: 15px;
+}
+
+.banner-text .button:hover {
   background-color: #555;
   color: white;
+}
+
+/* Projekter forside */
+.wrapper {
+	width: 80%;
+	margin: auto;
+}
+
+#projekter {
+	height: 1200px;
+	margin-top: 150px;
 }

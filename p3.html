@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Multimediedesigner Portfolio">
+<meta name="keywords" content="Nadja Uhrenfeldt,Multimediedesign,Portfolio">
+<meta name="author" content="Nadja Uhrenfeldt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projekt 3 - Prototype App</title>
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="styles.css">
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+<!-- Start main navigation -->
+
+<div class="banner-image">
+  <nav id="myNav">
+    <ul>
+      <li><a href="#" target="_self">Projektsamling</a> 
+        <!-- Nested list as sub menu -->
+        <ul>
+          <li><a href="#" target="_self">Projekt 1</a></li>
+          <li><a href="#" target="_self">Projekt 2</a></li>
+          <li><a href="#" target="_self">Projekt 3</a></li>
+          <li><a href="#" target="_self">Projekt 3.1</a></li>
+          <li><a href="#" target="_self">Projekt 4</a></li>
+          <li><a href="#" target="_self">Projekt 5</a></li>
+        </ul>
+      </li>
+      <li><a href="#" target="_self">CV</a></li>
+      <li><a href="#" target="_self">Kontakt</a></li>
+    </ul>
+  </nav>
+</div>
+
+<!-- Wrapper der indeholder oversigt over projekter -->
+<div class="wrapper-projekter">
+  <div id="projekter"> 
+    
+    <!-- Start slideshow vejrapp-iPhone-->
+    <h1>Projekt 3: Prototype Vejrapp</h1>
+    <p>World Weather</p>
+    <div class="slideshow-container">
+      <div class="mySlides fade"> <img src="images/vejrapp-iphone1.png" style="width:80%" alt="Vejapp side 1">
+        <div class="text">Forside</div>
+      </div>
+      <div class="mySlides fade"> <img src="images/vejrapp-iphone2.png" style="width:80%" alt="Vejapp side 2">
+        <div class="text">Oversigt over byer</div>
+      </div>
+      <div class="mySlides fade"> <img src="images/vejrapp-iphone3.png" style="width:80%" alt="Vejapp side 3">
+        <div class="text">Settings</div>
+      </div>
+      <div class="mySlides fade"> <img src="images/vejrapp-iphone4.png" style="width:80%" alt="Vejapp side 4">
+        <div class="text">Hourly weather</div>
+      </div>
+      <div class="mySlides fade"> <img src="images/vejrapp-iphone5.png" style="width:80%" alt="Vejapp side 5">
+        <div class="text">Weekly weather</div>
+      </div>
+      <div class="mySlides fade"> <img src="images/vejrapp-iphone6.png" style="width:80%" alt="Vejapp side 6">
+        <div class="text">Details</div>
+      </div>
+      <!--Div slideshow slut--> 
+    </div>
+    <br>
+    <div style="text-align:center"> <span class="dot"></span> <span class="dot"></span> <span class="dot"></span> <span class="dot"></span> <span class="dot"></span> <span class="dot"></span> </div>
+    
+    <!--Div projekter slut--> 
+  </div>
+  <!--Wrapper slut--> 
+</div>
+
+<!-- Script for slideshow --> 
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+</body>
+</html>

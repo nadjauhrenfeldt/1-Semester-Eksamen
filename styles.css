@@ -11,19 +11,17 @@ body, html {
 /* Headlines of all pages */
 h1 {
 	font-size: 25px;
-	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
 } 
 
 h2 {
 	font-size: 20px;
-	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
 } 
 
 /* Desktop Styles */
 body {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
 	background: #ffffff;
 	color: black;
 	margin: 0;
@@ -35,10 +33,9 @@ body {
 nav {
 	/*background-color: #AA898A;*/
 	float: right;
-	font-family: 'Inconsolata', monospace;
+	font-family: 'Lato', sans-serif;
 	letter-spacing: 0.20em;
     font-size: 5px;
-	text-transform: uppercase;
 	margin-top: 52px;
 	margin-right: 95px;
 }

@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 
 body, html {
     height: 100%;
@@ -9,13 +10,21 @@ body, html {
 
 /* Headlines of all pages */
 h1 {
-	font-size: 30px;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+} 
+
+h2 {
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
 } 
 
 /* Desktop Styles */
 body {
+	font-family: 'Montserrat', sans-serif;
 	background: #ffffff;
-	font-family: 'Lato', sans-serif;
 	color: black;
 	margin: 0;
 	padding: 0;
@@ -26,7 +35,10 @@ body {
 nav {
 	/*background-color: #AA898A;*/
 	float: right;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Inconsolata', monospace;
+	letter-spacing: 0.20em;
+    font-size: 5px;
+	text-transform: uppercase;
 	margin-top: 52px;
 	margin-right: 95px;
 }

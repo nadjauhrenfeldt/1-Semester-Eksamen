@@ -10,18 +10,19 @@ body, html {
 
 /* Headlines of all pages */
 h1 {
-	font-size: 30px;
+	font-size: 25px;
 	font-family: 'Lato', sans-serif;
 } 
 
 h2 {
-	font-size: 25px;
+	font-size: 20px;
 	font-family: 'Lato', sans-serif;
 } 
 
 /* Desktop Styles */
 body {
 	font-family: 'Lato', sans-serif;
+	font-size: 15px;
 	background: #ffffff;
 	color: black;
 	margin: 0;
@@ -55,8 +56,7 @@ body {
   color: black;
   background-color: white;
   border-radius: 50%;
-  line-height: 35px;
-}
+} 
 
 .fa-instagram:hover, .fa-linkedin:hover, .fa-github:hover {
     background-color: #D5D5D5;
@@ -253,6 +253,13 @@ a.link {
 	width: 85%;
 	margin: auto;
 	padding-top: 110px;
+}
+
+/* Projektbeskrivelse */
+.projektbeskrivelse {
+	width: 50%; 
+	position: relative;
+	text-align: justify;
 }
 
 

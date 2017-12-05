@@ -263,10 +263,30 @@ a.link {
 	/*text-align: justify; Gør teksten mere lige linjer*/ 
 }
 
+.button-projekter {
+	display: block;
+	padding: 10px 15px;
+	background-color: #EAEAEA;
+	width: 70%;
+	margin: auto;
+	text-decoration: none;
+	color: black;
+	border-radius: 20px;
+	font-size: 14px;
+	text-align: center;
+}
+
+.button-projekter:hover {
+    background-color: #D5D5D5;
+	color: white;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+}
 
 /* Style slideshow placering*/
 .style-slideshow {
 	float: right;
+	margin-right: 10%;
 }
 
 /* Slideshow projekter */

@@ -109,7 +109,7 @@ nav ul ul {
 /* Display dropdowns on hover */
 nav ul li:hover > ul {
 	display: inherit;
-	/*background-color: #FFFFFF;*/
+	background-color: #FFFFFF;
 	width: 150px; 
 }
 
@@ -286,6 +286,7 @@ a.link {
 /* Style slideshow placering*/
 .style-slideshow {
 	float: right;
+    /*margin-top: 15%;*/ 
 	margin-right: 10%;
 }
 

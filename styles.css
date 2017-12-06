@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Lato|Ubuntu');
 
 
 body, html {
@@ -11,12 +11,12 @@ body, html {
 /* Headlines of all pages */
 h1 {
 	font-size: 25px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 } 
 
 h2 {
 	font-size: 20px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 } 
 
 /* Desktop Styles */
@@ -69,7 +69,7 @@ body {
 nav {
 	/*background-color: #AA898A;*/
 	float: right;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 	letter-spacing: 0.20em;
     font-size: 5px;
 	margin-top: 52px;

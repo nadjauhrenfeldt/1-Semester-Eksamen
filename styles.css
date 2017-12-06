@@ -95,6 +95,7 @@ nav a {
 	font-size: 16px;
 	text-decoration: none;
 	padding: 14px 20px;
+	position: relative;
 }
 
 nav a:hover {
@@ -141,7 +142,6 @@ nav ul ul li {
   transform: translate(-50%, -50%);
   color: black;
 }
-
 
 /* Button "Se mit arbejde" */
 .button {

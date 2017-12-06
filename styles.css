@@ -24,7 +24,7 @@ body {
 	font-family: 'Lato', sans-serif;
 	font-size: 15px;
 	background: #ffffff;
-	color: black;
+	color: #000000;
 	margin: 0;
 	padding: 0;
 }
@@ -34,8 +34,8 @@ body {
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: #eaeaeaea;
-   color: white;
+   background-color: #eaeaea;
+   color: #ffffff;
    text-align: center;
    padding-top: 50px;
    padding-bottom: 40px;
@@ -53,14 +53,14 @@ body {
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
-  color: black;
-  background-color: white;
+  color: #000000;
+  background-color: #FFFFFF;
   border-radius: 50%;
 } 
 
 .fa-instagram:hover, .fa-linkedin:hover, .fa-github:hover {
     background-color: #D5D5D5;
-	color: white;
+	color: #ffffff;
 	opacity: 0.9;
 	filter: alpha(opacity=90);
 }
@@ -100,7 +100,7 @@ nav a {
 
 nav a:hover {
 	background-color: #EAEAEA;
-	color: white;
+	color: #ffffff;
 }
 
 /* Dropdown menu styles */
@@ -140,18 +140,18 @@ nav ul ul li {
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: black;
+  color: #000000;
 }
 
 /* Button "Se mit arbejde" */
 .button {
 	display: block;
 	padding: 10px 15px;
-	background-color: white;
+	background-color: #ffffff;
 	width: 35%;
 	margin: auto;
 	text-decoration: none;
-	color: black;
+	color: #000000;
 	border-radius: 20px;
 	font-size: 14px;
 	text-align: center;
@@ -165,7 +165,7 @@ nav ul ul li {
 
 .banner-text .button:hover {
   background-color: #555;
-  color: white;
+  color: #ffffff;
 }
 
 .logo {

@@ -74,6 +74,8 @@ nav {
     font-size: 5px;
 	margin-top: 52px;
 	margin-right: 95px;
+	position: relative;
+	z-index: 40000;
 }
 
 /* Removing margin, pading and list styles from nav ul */
@@ -303,7 +305,8 @@ a.link {
 .text {
   color: #000;
   font-size: 15px;
-  position: absolute;
+  position: relative;
+  margin-top: 10px;
   bottom: 8px;
   width: 100%;
   text-align: center; 

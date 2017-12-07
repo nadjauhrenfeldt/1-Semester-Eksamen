@@ -76,6 +76,7 @@ nav {
 	margin-right: 95px;
 	position: relative;
 	z-index: 40000;
+	text-transform: uppercase;
 }
 
 /* Removing margin, pading and list styles from nav ul */

@@ -31,34 +31,40 @@ body {
 
 /* Footer */
 .footer {
-   left: 0;
-   bottom: 0;
+   height: 160px;
    width: 100%;
    background-color: #eaeaea;
-   color: #ffffff;
-   text-align: center;
-   padding-top: 50px;
-   padding-bottom: 40px;
+   box-sizing: border-box;	
 }
 
 .footer-content {
+	box-sizing: border-box;
+	height: 160px;
+	color: #ffffff;
+	text-align: center;
+	padding: 60px;
 	list-style: none;
 }
 
-.fa-instagram, .fa-linkedin, .fa-github {
-  padding: 5px;
-  font-size: 30px;
-  width: 35px;
-  height: 35px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
+.footer-content a {
+  width: 25px;
+  height: 25px;
   color: #000000;
-  background-color: #FFFFFF;
+  text-align: center;
   border-radius: 50%;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;	
+  background-color: #FFFFFF;
+  margin-right: 3px;	
 } 
 
-.fa-instagram:hover, .fa-linkedin:hover, .fa-github:hover {
+.footer-content i {
+	font-size: 20px;
+	/*padding: 10px;*/
+}
+
+.footer-content a:hover {
     background-color: #D5D5D5;
 	color: #ffffff;
 	opacity: 0.9;

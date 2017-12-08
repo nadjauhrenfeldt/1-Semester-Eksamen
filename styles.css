@@ -322,6 +322,11 @@ a.link {
     width: 200%;
 }
 
+.placering-dot2 {
+	padding-left: 75%;
+    width: 200%;
+}
+
 /* Style slideshow placering*/
 .style-slideshow {
 	float: right;

@@ -299,6 +299,12 @@ a.link {
 	margin-right: 10%;
 }
 
+.style-slideshow1 {
+	float: right;
+    /*margin-top: 15%;*/ 
+	margin-right: 17%;
+}
+
 /* Slideshow projekter */
 .mySlides {display:none}
 

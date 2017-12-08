@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="da">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Sweetbot design">
+<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+<meta name="author" content="Marina Warring Rusholt | Nadja Uhrenfeldt | Erik Forsberg">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>sweetbot-hotbot</title>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<link href="sweetbot-style.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+<!--script for Background color change-->
+<script>
+	$( document ).ready(function() {
+    var listOfClasses = ["color-scheme-1","color-scheme-2","color-scheme-3","color-scheme-4","color-scheme-5","color-scheme-6","color-scheme-7","color-scheme-8","color-scheme-9","color-scheme-10","color-scheme-11","color-scheme-12","color-scheme-13"];
+    var randomNum = Math.floor(Math.random() * listOfClasses.length); 
+    $("html").addClass(listOfClasses[randomNum]);
+});
+</script>
+</head>
+
+<body>
+<p style="text-align: right; padding-right: 50px; font-size: larger">DA   EN</p>
+<!--search bar-->
+<form method="get" action="/search" id="search">
+  <input name="q" type="text" size="40" placeholder="Search..." />
+</form>
+<!--search bar slut-->
+<header> </header>
+<nav id="myNav">
+  <ul>
+    <li><a href="sweetbot-index.html" target="_self">Hjem</a></li>
+    <li><a href="#" target="_self">Speciale</a>
+      <ul>
+        <a href="sweetbot-webdesign.html" target="_self">Webudvikling</a> <a href="sweetbot-digitalsecurity.html" target="_self">Digital Security</a> <a href="sweetbot-branding.html" target="_self">Branding</a>
+      </ul>
+    </li>
+    <li><a href="sweetbot-hotbot.html" target="_self">HotBot</a></li>
+    <li><a href="sweetbot-kunder.html" target="_self">Kunder</a></li>
+    <li><a href="sweetbot-vaerdier.html" target="_self">Værdier</a></li>
+    <li><a href="sweetbot-kontakt.html" target="_self">Kontakt</a></li>
+  </ul>
+</nav>
+<div class="container"> <img src="image/Depositphotos_31395529_l-2015-760x400.jpg" width="100%" height="auto" alt="Billede"/>
+  <h1 class="textpad">HotBot e-handelsløsning.</h1>
+  <h2 class="textpad">Sweetbot har i samarbejde med Nadja Uhrenfeldt og Erik Forsberg udarbejdet følgende logo og ikoner til HotBot e-commerce løsning.</h2>
+  <img id="hotbotlogo" src="image/hotbot-logo.png" style="padding:80px" width="100%" height="auto" alt="HotBot logo"/>
+  <p class="textpad">Tankerne bag logoet er selvfølgelig en "varm robot". Vi havde en del drøftelser om vi skulle vælge et logo der var basseret på selve navnet HotBot eller om logoet skulle afspejle online handel, så som en indhøbskurv eller en bærepose. Selv skrifttypen skulle være meget simpel da der foregår en del i selve logoet. Så for at skabe noget ro valgte vi store simple bogstaver.</p>
+  <img id="hotbotikon" src="image/hotbot-icons.png" style="padding:80px" width="100%" height="auto" alt="Hotbot ikoner"/>
+  <p class="textpad">Ovenstående er vores designede ikoner til webshoppen. De er holdt i tynd streg med enkelte større sorte flader for at passe til selve loget og sidens udtryk.</p>
+<img src="image/hotbot-forside.png" style="padding:80px 0px" width="100%" height="auto" alt="HotBot side"/> 
+<img src="image/hotbot-betalingside.png" width="100%" height="auto" alt="HotBot side"/>
+<br>
+<a href="hotbot_styleguide.pdf"><h2>Download HotBot styleguide her. (PDF)</h2></a>
+<object data="hotbot_styleguide.pdf" type="application/pdf" width="100%" height="1200px">
+<iframe src="hotbot_styleguide.pdf" width="100%" height="1200px" style="border: none;">
+This browser does not support PDFs. Please download the PDF to view it: <a href="hotbot_styleguide.pdf">Download PDF</a>
+</iframe>
+</object>
+</div>
+<footer class="footer-distributed">
+  <div class="footer-right"> <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a> <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a> <a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a> <a href="https://www.github.com"><i class="fa fa-github"></i></a> </div>
+  <div class="footer-left">
+    <p>Sweetbot.Design 2017</p>
+    <br>
+    <p>CEO Merete Geldermann - &nbsp; mli@cphbusiness.dk</p>
+    <p>CEO Marc Kluge - &nbsp; klu@cphbusiness.dk</p>
+  </div>
+</footer>
+</body>
+</html>

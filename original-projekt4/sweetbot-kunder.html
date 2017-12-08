@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="da">
+	<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Sweetbot design">
+	<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+	<meta name="author" content="Marina Warring Rusholt | Nadja Uhrenfeldt | Erik Forsberg">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>sweetbot-kunder</title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<link href="sweetbot-style.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+	<link href="magic.min.css" rel="stylesheet" type="text/css">
+	<link href="main.css" rel="stylesheet" type="text/css">
+	<script src="http://www.queness.com/js/bsa2.js"></script>
+	<!--script for Background color change-->
+	<script>
+	$( document ).ready(function() {
+    var listOfClasses = ["color-scheme-1","color-scheme-2","color-scheme-3","color-scheme-4","color-scheme-5","color-scheme-6","color-scheme-7","color-scheme-8","color-scheme-9","color-scheme-10","color-scheme-11","color-scheme-12","color-scheme-13"];
+    var randomNum = Math.floor(Math.random() * listOfClasses.length); 
+    $("html").addClass(listOfClasses[randomNum]);
+});
+
+</script>
+	<script>
+$(function () {
+	$('.box').hover(
+		function () {
+			var overlay = $(this).find('.box-overlay');
+			overlay.removeClass(overlay.data('return')).addClass(overlay.data('hover'));
+		},
+		function () {
+			var overlay = $(this).find('.box-overlay');		
+			overlay.removeClass(overlay.data('hover')).addClass(overlay.data('return'));
+
+		}
+	);
+});
+	</script>
+	</head>
+	<body>
+<p style="text-align: right; padding-right: 50px; font-size: larger">DA   EN</p>
+<header> </header>
+<nav id="myNav">
+      <ul>
+    <li><a href="sweetbot-index.html" target="_self">Hjem</a></li>
+    <li><a href="#" target="_self">Speciale</a>
+          <ul>
+        <a href="sweetbot-webdesign.html" target="_self">Webudvikling</a> <a href="sweetbot-digitalsecurity.html" target="_self">Digital Security</a> <a href="sweetbot-branding.html" target="_self">Branding</a>
+      </ul>
+        </li>
+    <li><a href="sweetbot-hotbot.html" target="_self">HotBot</a></li>
+    <li><a href="sweetbot-kunder.html" target="_self">Kunder</a></li>
+    <li><a href="sweetbot-vaerdier.html" target="_self">Værdier</a></li>
+    <li><a href="sweetbot-kontakt.html" target="_self">Kontakt</a></li>
+  </ul>
+    </nav>
+<div class="container"> <img src="image/client.jpg" width="100%" height="auto" alt="Billede"/>
+      <h1 class="textpad">Kunder.</h1>
+      <h2 class="textpad">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mollis ipsum non turpis sodales, eget convallis metus feugiat. Quisque ac dictum mauris. Ut commodo pretium tincidunt.</h2>
+      <p class="textpad">Etiam porta lobortis tortor vel aliquam. Integer lectus ligula, lacinia sit amet dignissim vel, posuere eget velit. Fusce sagittis nulla et sem scelerisque, sed vulputate tellus porttitor. Phasellus at ipsum sed turpis cursus ultricies nec et libero.</p>
+      <div id="wrapper">
+    <div class="box">
+          <div class="box-content">
+        <div class="box-wrapper"> Apple Inc.<span class="name">Webdesign</span>
+              <div class="row">15 miliion</div>
+            </div>
+      </div>
+          <div class="box-overlay magictime" data-hover="puffOut" data-return="puffIn"> <img src="image/applefix.png" alt="apple logo" /> </div>
+          <a class="link" href="https://www.apple.com/" target="_blank"></a> </div>
+    <div class="box">
+          <div class="box-content">
+        <div class="box-wrapper"> Coke Inc.<span class="name">Webdesign</span>
+              <div class="row">13 million</div>
+            </div>
+      </div>
+          <div class="box-overlay magictime" data-hover="puffOut" data-return="puffIn"> <img src="image/cokefix.png" alt="coke logo" /> </div>
+          <a class="link" href="https://www.cocacola.dk/start/" target="_blank"></a> </div>
+    <div class="box">
+          <div class="box-content">
+        <div class="box-wrapper"> Marlboro.com<span class="name">Webdesign</span>
+              <div class="row">11 million</div>
+            </div>
+      </div>
+          <div class="box-overlay magictime" data-hover="puffOut" data-return="puffIn"> <img src="image/marlborofix.png" alt="marl logo" /> </div>
+          <a class="link" href="https://www.marlboro.com/gconnect/index.action" target="_blank"></a> </div>
+    <div class="box">
+          <div class="box-content">
+        <div class="box-wrapper"> McDonalds<span class="name">Webdesign</span>
+              <div class="row">9 millions</div>
+            </div>
+      </div>
+          <div class="box-overlay magictime" data-hover="puffOut" data-return="puffIn"> <img src="image/mcdfix.png" alt="mac logo" /> </div>
+          <a class="link" href="https://www.mcdonalds.com/dk/da-dk.html" target="_blank"></a> </div>
+    <div class="box">
+          <div class="box-content">
+        <div class="box-wrapper"> Nike<span class="name">Just do it.</span>
+              <div class="row">20 millions</div>
+            </div>
+      </div>
+          <div class="box-overlay magictime" data-hover="puffOut" data-return="puffIn"> <img src="image/nikefix.png" alt="nike logo" /> </div>
+          <a class="link" href="https://www.nike.com/dk/da_dk/" target="_blank"></a> </div>
+    <div class="box">
+          <div class="box-content">
+        <div class="box-wrapper"> Pepsi coke<span class="name">Webdesign</span>
+              <div class="row">12 millions</div>
+            </div>
+      </div>
+          <div class="box-overlay magictime" data-hover="puffOut" data-return="puffIn"> <img src="image/pepsifix.png" alt="pepsi logo" /> </div>
+          <a class="link" href="https://www.pepsi.com/en-us/" target="_blank"></a> </div>
+  </div>
+    </div>
+<footer class="footer-distributed">
+      <div class="footer-right"> <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a> <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a> <a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a> <a href="https://www.github.com"><i class="fa fa-github"></i></a> </div>
+      <div class="footer-left">
+    <p>Sweetbot.Design 2017</p>
+    <br>
+    <p>CEO Merete Geldermann - &nbsp; mli@cphbusiness.dk</p>
+    <p>CEO Marc Kluge - &nbsp; klu@cphbusiness.dk</p>
+  </div>
+</footer>
+</body>
+</html>

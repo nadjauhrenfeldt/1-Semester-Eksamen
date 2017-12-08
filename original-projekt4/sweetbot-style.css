@@ -1,0 +1,444 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+body {
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+h1 h2 h3 a ul li {
+	font-weight: 700;
+}
+p {
+	font-weight: 400;
+}
+#search {
+	position: relative;
+	top: 132px;
+	right: 10%;
+	float: right;
+	
+}
+
+#search input[type="text"] {
+    background: url(search-white.png) no-repeat 10px 6px #fcfcfc;
+    border: 1px solid #d1d1d1;
+    font: bold 17px 'Lato', sans-serif;
+    color: #bebebe;
+    width: 150px;
+    padding: 6px 15px 6px 35px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+    }
+
+#search input[type="text"]:focus {
+    width: 200px;
+    }
+/* Navigation Main Styles */
+nav {
+	background-color: #3D6BB4;
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+nav ul li {
+	display: inline-block;
+	width: 16%;
+}
+nav a {
+	display: block;
+	color: white;
+	font-size: 17px;
+	text-decoration: none;
+	padding: 14px 20px;
+}
+nav a:hover {
+	background-color: #749CD3;
+}
+/* The dropdown menu styles*/
+/* Hide Dropdowns by default and assigning position absolute */
+nav ul ul {
+	display: none;
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	z-index: 1;
+}
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+	display: table;
+	background-color: #3D6BB4;
+	width: 13%;
+}
+header {
+	height: 220px;
+}
+.container {
+	position: relative;
+	background-color: white;
+	width: 80%;
+	margin: auto;
+	margin-bottom: 50px;
+}
+.textpad {
+	padding: 10px 80px;
+}
+html.color-scheme-1 {
+	background: url("image/logo-blue-white.png") no-repeat scroll 0 90px transparent;
+	background-color: #DF9B67;
+}
+html.color-scheme-2 {
+	background: url("image/logo-blue-white.png") no-repeat scroll 0 90px transparent;
+	background-color: #FFFFFF;
+}
+html.color-scheme-3 {
+	background: url("image/logo-blue-white.png") no-repeat scroll 0 90px transparent;
+	background-color: #C9DB50;
+}
+html.color-scheme-4 {
+	background: url("image/logo-blue-white.png") no-repeat scroll 0 90px transparent;
+	background-color: #C9DB50;
+}
+html.color-scheme-5 {
+	background: url("image/logo-green-white.png") no-repeat scroll 0 90px transparent;
+	background-color: #749CD3;
+}
+html.color-scheme-6 {
+	background: url("image/logo-green-white.png") no-repeat scroll 0 90px transparent;
+	background-color: #3D6BB4;
+}
+html.color-scheme-7 {
+	background: url("image/logo-green-white.png") no-repeat scroll 0 90px transparent;
+	background-color: #FFFFFF;
+}
+html.color-scheme-8 {
+	background: url("image/logo-lightblue-white.png") no-repeat scroll 0 90px transparent;
+	background-color: #FFFFFF;
+}
+html.color-scheme-9 {
+	background: url("image/logo-lightblue-white.png") no-repeat scroll 0 90px transparent;
+	background-color: #DF9B67;
+}
+html.color-scheme-10 {
+	background: url("image/logo-lightblue-white.png") no-repeat scroll 0 90px transparent;
+	background-color: #C9DB50;
+}
+html.color-scheme-11 {
+	background: url("image/logo-skin-white.png") no-repeat scroll 0 90px transparent;
+	background-color: #3D6BB4;
+}
+html.color-scheme-12 {
+	background: url("image/logo-skin-white.png") no-repeat scroll 0 90px transparent;
+	background-color: #749CD3;
+}
+html.color-scheme-13 {
+	background: url("image/logo-skin-white.png") no-repeat scroll 0 90px transparent;
+	background-color: #FFFFFF;
+}
+#container-icon {
+	padding-top: 40px;
+	width: 80%;
+	margin: auto;
+	display: flex;
+}
+#icon1, #icon2, #icon3 {
+	width: 30%;
+	text-align: center;
+	padding: 10px;
+}
+.logos {
+	text-align: center;
+	padding: 10px;
+}
+#hotbotlogo {
+	width: 60%;
+	height: auto;
+	padding: 0px 80px;
+}
+#hotbotikon {
+	width: 60%;
+	height: auto;
+	padding: 0px 80px;
+}
+.footer-distributed {
+	background-color: #3D6BB4;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	padding: 45px 50px;
+	margin-top: 80px;
+	clear: both;
+}
+.footer-distributed .footer-left p {
+	color: #FFFFFF;
+	font-size: larger;
+	margin: 0;
+}
+/* Footer links */
+
+.footer-distributed p.footer-links {
+	font-size: 18px;
+	font-weight: bold;
+	color: #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+.footer-distributed p.footer-links a {
+	display: inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color: inherit;
+}
+.footer-distributed .footer-right {
+	float: right;
+	margin-top: 6px;
+	max-width: 180px;
+}
+.footer-distributed .footer-right a {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background-color: #33383b;
+	border-radius: 2px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+	margin-left: 3px;
+}
+.form-basic {
+	max-width: 640px;
+	margin: 0 auto;
+	padding: 55px;
+	box-sizing: border-box;
+	text-align: center;
+}
+.form-basic .form-row {
+	text-align: left;
+	margin-bottom: 22px;
+}
+.form-basic .form-title-row {
+	text-align: center;
+	margin-bottom: 55px;
+}
+/* The form title */
+
+.form-basic h1 {
+	display: inline-block;
+	box-sizing: border-box;
+	color: #4c565e;
+	font-size: 24px;
+	padding: 0 10px 15px;
+	border-bottom: 2px solid #6caee0;
+	margin: 0;
+}
+.form-basic .form-row > label span {
+	display: inline-block;
+	box-sizing: border-box;
+	color: #5F5F5F;
+	width: 180px;
+	text-align: right;
+	vertical-align: top;
+	padding: 12px 25px;
+}
+.form-basic input {
+	color: #5f5f5f;
+	box-sizing: border-box;
+	width: 240px;
+	box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+	padding: 12px;
+	border: 1px solid #dbdbdb;
+}
+.form-basic select {
+	background-color: #ffffff;
+	color: #5f5f5f;
+	box-sizing: border-box;
+	max-width: 240px;
+	box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+	padding: 12px 8px;
+	border: 1px solid #dbdbdb;
+}
+.form-basic textarea {
+	color: #5f5f5f;
+	box-sizing: border-box;
+	width: 240px;
+	height: 80px;
+	box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+	font: normal 13px sans-serif;
+	padding: 12px;
+	border: 1px solid #dbdbdb;
+	resize: vertical;
+}
+.form-basic button {
+	display: block;
+	border-radius: 2px;
+	background-color: #6caee0;
+	color: #ffffff;
+	font-weight: bold;
+	box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+	padding: 14px 22px;
+	border: 0;
+	margin: 40px 183px 0;
+}
+
+/*	Making the form responsive. Remove this media query
+    if you don't need the form to work on mobile devices. */
+
+
+@media all and (max-width: 1000px) {
+h1 {
+	font-size: 1.6em;
+	margin-top: 0px;
+}
+h2 {
+	font-size: 1.2em;
+}
+button {
+	display: block;
+}
+nav ul li {
+	text-align: center;
+	width: 100%;
+	font-size: 2em;
+}
+nav a {
+	font-size: 0.6em;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+/* Dropdown items */
+nav ul ul {
+	position: static;
+}
+nav ul li:hover > ul {
+	width: 100%;
+}
+#container-icon {
+	padding-top: 0px;
+}
+#icon1, #icon2, #icon3 {
+	width: 100%;
+	text-align: center;
+}
+.form-basic {
+	padding: 30px;
+	max-width: 480px;
+}
+.form-basic .form-row {
+	max-width: 300px;
+	margin: 25px auto;
+	text-align: left;
+}
+.form-basic .form-title-row {
+	margin-bottom: 50px;
+}
+.form-basic .form-row > label span {
+	display: block;
+	text-align: left;
+	padding: 0 0 15px;
+}
+.form-basic select {
+	width: 240px;
+}
+.form-basic button {
+	margin: 0;
+}
+.footer-distributed .footer-left, .footer-distributed .footer-right {
+	text-align: center;
+}
+.footer-distributed .footer-right {
+	float: none;
+	margin: 0 auto 20px;
+}
+.footer-distributed .footer-left p.footer-links {
+	line-height: 1.8;
+}
+}
+
+@media all and (max-width: 736px) {
+#container-icon {
+	width: 90%;
+	display: block;
+}
+#search {
+	position: relative;
+	top: 170px;
+	right: 50%;
+	float: right;
+	
+}
+.textpad {
+	padding: 5px 5px;
+}
+
+html.color-scheme-1 {
+	background-size: 75%;
+}
+html.color-scheme-2 {
+	background-size: 75%;
+}
+html.color-scheme-3 {
+	background-size: 75%;
+}
+html.color-scheme-4 {
+	background-size: 75%;
+}
+html.color-scheme-5 {
+	background-size: 75%;
+}
+html.color-scheme-6 {
+	background-size: 75%;
+}
+html.color-scheme-7 {
+	background-size: 75%;
+}
+html.color-scheme-8 {
+	background-size: 75%;
+}
+html.color-scheme-9 {
+	background-size: 75%;
+}
+html.color-scheme-10 {
+	background-size: 75%;
+}
+html.color-scheme-11 {
+	background-size: 75%;
+}
+html.color-scheme-12 {
+	background-size: 75%;
+}
+html.color-scheme-13 {
+	background-size: 75%;
+}
+}
+@media all and (max-width: 480px) {
+header {
+	height: 220px;
+}
+nav {
+	width: 100%;
+}
+.container {
+	width: 100%;
+}
+	#search {
+	right: 25%;
+}
+}

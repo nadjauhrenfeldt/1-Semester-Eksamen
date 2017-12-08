@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="da">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Sweetbot design">
+<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+<meta name="author" content="Marina Warring Rusholt | Nadja Uhrenfeldt | Erik Forsberg">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>sweetbot-kontakt</title>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<link href="sweetbot-style.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+<!--script for Background color change-->
+<script>
+	$( document ).ready(function() {
+    var listOfClasses = ["color-scheme-1","color-scheme-2","color-scheme-3","color-scheme-4","color-scheme-5","color-scheme-6","color-scheme-7","color-scheme-8","color-scheme-9","color-scheme-10","color-scheme-11","color-scheme-12","color-scheme-13"];
+    var randomNum = Math.floor(Math.random() * listOfClasses.length); 
+    $("html").addClass(listOfClasses[randomNum]);
+});
+</script>
+</head>
+
+<body>
+<p style="text-align: right; padding-right: 50px; font-size: larger">DA   EN</p>
+<header> </header>
+<nav id="myNav">
+  <ul>
+    <li><a href="sweetbot-index.html" target="_self">Hjem</a></li>
+    <li><a href="#" target="_self">Speciale</a>
+      <ul>
+        <a href="sweetbot-webdesign.html" target="_self">Webudvikling</a> <a href="sweetbot-digitalsecurity.html" target="_self">Digital Security</a> <a href="sweetbot-branding.html" target="_self">Branding</a>
+      </ul>
+    </li>
+    <li><a href="sweetbot-hotbot.html" target="_self">HotBot</a></li>
+    <li><a href="sweetbot-kunder.html" target="_self">Kunder</a></li>
+    <li><a href="sweetbot-vaerdier.html" target="_self">Værdier</a></li>
+    <li><a href="sweetbot-kontakt.html" target="_self">Kontakt</a></li>
+  </ul>
+</nav>
+<div class="container"> <img src="image/contact_header_0.jpg" width="100%" height="auto" alt="Billede"/>
+  <form class="form-basic" method="post" action="#">
+    <div class="form-title-row">
+      <h1>Kontakt Os</h1>
+    </div>
+    <div class="form-row">
+      <label> <span>Navn</span>
+        <input type="text" name="name">
+      </label>
+    </div>
+    <div class="form-row">
+      <label> <span>Email</span>
+        <input type="email" name="email">
+      </label>
+    </div>
+    <div class="form-row">
+      <label> <span>Besked</span>
+        <textarea name="textarea"></textarea>
+      </label>
+    </div>
+    <div class="form-row">
+      <button type="submit">Send</button>
+    </div>
+  </form>
+</div>
+<footer class="footer-distributed">
+  <div class="footer-right"> <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a> <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a> <a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a> <a href="https://www.github.com"><i class="fa fa-github"></i></a> </div>
+  <div class="footer-left">
+    <p>Sweetbot.Design 2017</p>
+    <br>
+    <p>CEO Merete Geldermann - &nbsp; mli@cphbusiness.dk</p>
+    <p>CEO Marc Kluge - &nbsp; klu@cphbusiness.dk</p>
+  </div>
+</footer>
+</body>
+</html>

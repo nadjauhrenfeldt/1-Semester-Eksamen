@@ -75,7 +75,8 @@ body {
   text-decoration: none;
   padding: 10px;	
   background-color: #FFFFFF;
-  margin-right: 3px;	
+  margin-right: 3px;
+  margin-left: 3px;
 } 
 
 .footer-content i {

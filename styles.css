@@ -439,6 +439,11 @@ a.link {
 	margin-right: 17%;
 }
 
+/* Billeder af ikoner placering */
+.ikoner {
+	margin-left: 90px;
+}
+
 /* Slideshow projekter */
 .mySlides {display:none}
 

@@ -216,11 +216,6 @@ nav ul ul li {
   position: relative;
 }
 
-.timeline {
-	margin-left: 20%;
-	padding-top: 80px;
-}
-
 /* Button "Se mit arbejde" */
 .button1 {
 	float: left;
@@ -360,7 +355,8 @@ a.link {
 .wrapper-kontakt {
 	text-align: center;
 	height: auto;
-	padding-top: 80px;
+	padding-top: 15%;
+	margin-left: 38%;
 }
 
 /* Beskrivelse af projekt*/

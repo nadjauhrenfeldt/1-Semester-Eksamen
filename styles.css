@@ -10,12 +10,18 @@ body, html {
 
 /* Headlines of all pages */
 h1 {
-	font-size: 50px;
+	font-size: 30px;
 	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
 } 
 
 h2 {
-	font-size: 25px;
+	font-size: 20px;
+	font-family: 'Ubuntu', sans-serif;
+} 
+
+h3 {
+	font-size: 15px;
 	font-family: 'Ubuntu', sans-serif;
 } 
 
@@ -218,9 +224,11 @@ nav ul ul li {
   color: #ffffff;
 }
 
-.link {
-	color: #000000;
+.info {
+  text-decoration: none;
+  color: #000000;
 }
+
 
 /* Logo styling */
 .logo {
@@ -308,11 +316,19 @@ a.link {
 }
 
 /* Projektsamling */
-.wrapper-projektsamling {
+.wrapper-content {
 	height: auto;
 	width: 85%;
 	margin: auto;
 	padding-top: 85px;
+	padding-bottom: 50px;
+}
+
+.wrapper-cv {
+	height: auto;
+	width: 85%;
+	margin: auto;
+	padding-top: 50px;
 }
 
 /* Beskrivelse af projekt*/

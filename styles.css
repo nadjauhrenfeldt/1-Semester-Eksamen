@@ -367,6 +367,13 @@ a.link {
 	/*text-align: justify; Gør teksten mere lige linjer*/ 
 }
 
+/* Beskrivelse af projekt*/
+.projektbeskrivelse1 {
+	width: 50%; 
+	position: relative;
+	/*text-align: justify; Gør teksten mere lige linjer*/ 
+}
+
 .button-projekter {
 	display: block;
 	padding: 10px 15px;
@@ -407,6 +414,26 @@ a.link {
 	filter: alpha(opacity=90);
 }
 
+.button-projekter4 {
+	display: block;
+	padding: 10px 15px;
+	background-color: #EAEAEA;
+	width: 75%;
+	margin-left: 60%;
+	text-decoration: none;
+	color: black;
+	border-radius: 20px;
+	font-size: 14px;
+	text-align: center;
+}
+
+.button-projekter4:hover {
+    background-color: #D5D5D5;
+	color: white;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+}
+
 /* Dots placering på projektsiderne */
 .placering-dot {
 	padding-left: 72%;
@@ -420,6 +447,11 @@ a.link {
 
 .placering-dot2 {
 	padding-left: 75%;
+    width: 200%;
+}
+
+.placering-dot4 {
+	padding-left: 72%;
     width: 200%;
 }
 
@@ -546,7 +578,7 @@ td i {
 	
 /* Headlines of all pages */
 h1 {
-	font-size: 25px;
+	font-size: 20px;
 } 
 
 h2 {
@@ -589,6 +621,13 @@ h3 {
 	padding-top: 90%;
 }
 
+.projektbeskrivelse1 {
+	width: 95%; 
+	position: relative;
+	padding-top: 150%;
+}
+
+	
 /* Wrapper */
 .wrapper-content {
 	height: auto;
@@ -598,6 +637,10 @@ h3 {
 }
 	
 /* Style slideshow placering */
+.style-slideshow {
+	float: left;
+	margin-left: 35%;
+}
 .style-slideshow1 {
 	float: left;
 	margin-left: 25%;
@@ -609,11 +652,39 @@ h3 {
 }
 
 .placering-dot {
-	display: none;
+  padding-left: 45%;
 }
 
+.placering-dot1 {
+	padding-left: 60%;
+}
+
+.placering-dot2 {
+	padding-left: 55%;
+}
+
+.placering-dot4 {
+	padding-left: 35%;
+}
+
+.button-projekter {
+	width: 80%;
+
+}
+	
 .button-projekter1 {
-	margin-left: 50%;
+	margin-left: 45%;
+}
+	
+.button-projekter4 {
+	width: 85%;
+	margin-left: 15%;
+	
+}
+
+/* Billeder af ikoner placering */
+.ikoner {
+	margin-left: 50px;
 }
 	
 

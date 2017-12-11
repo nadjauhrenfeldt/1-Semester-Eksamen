@@ -35,6 +35,7 @@ h3 {
 
 .nadjauhrenfelt {
 	font-size: 50px;
+	text-transform: none
 }
 
 /* Desktop Styles */
@@ -331,7 +332,7 @@ a.link {
 	color: #ffffff;
 }
 
-/* Projektsamling */
+/* Wrapper */
 .wrapper-content {
 	height: auto;
 	width: 85%;
@@ -537,4 +538,84 @@ td i {
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
+}
+
+/* Responsive Styles with CSS media query*/
+@media all and (max-width: 768px) {
+	
+	
+/* Headlines of all pages */
+h1 {
+	font-size: 25px;
+} 
+
+h2 {
+	font-size: 15px;
+} 
+
+h3 {
+	font-size: 10px;
+}
+	
+/* Button "Se mit arbejde" */
+.button {
+	display: none;
+}
+	
+.banner-text {
+  color: #ffffff;
+}
+
+.nadjauhrenfelt {
+	font-size: 40px;
+	text-transform: none
+}
+	
+/* Footer */
+.footer {
+   display: none;	
+}
+
+/* Logo styling */
+.logo {
+	margin-top: 52px;
+	margin-left: 10px;
+}
+
+/* Beskrivelse af projekt*/
+.projektbeskrivelse {
+	width: 95%; 
+	position: relative;
+	padding-top: 90%;
+}
+
+/* Wrapper */
+.wrapper-content {
+	height: auto;
+	width: 95%;
+	margin: auto;
+	padding-top: 85px;
+}
+	
+/* Style slideshow placering */
+.style-slideshow1 {
+	float: left;
+	margin-left: 25%;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100px;
+}
+
+.placering-dot {
+	display: none;
+}
+
+.button-projekter1 {
+	margin-left: 50%;
+}
+	
+
+/* End media query*/
 }

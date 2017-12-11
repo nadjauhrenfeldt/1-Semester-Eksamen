@@ -23,8 +23,8 @@ h2 {
 .overskrifter-cv {
 	text-align: center;
 	font-size: 50px;
-	margin-top: 80px;
-	margin-bottom: 80px;
+	margin-top: 70px;
+	margin-bottom: 70px;
 }
 
 /* Desktop Styles */
@@ -187,7 +187,7 @@ nav ul ul li {
 .banner-image2 {
   background-image: url(images/background2.png);
   width: 100%;
-  height: 80%;
+  height: 85%;
 
   background-position: center;
   background-repeat: no-repeat;
@@ -200,7 +200,6 @@ nav ul ul li {
 	float: left;
 	display: block;
 	padding: 10px 15px;
-	background-color: #ffffff;
 	width: 20%;
 	margin: auto;
 	text-decoration: none;
@@ -209,8 +208,6 @@ nav ul ul li {
 	border: solid 2px black;
 	font-size: 14px;
 	text-align: center;
-	opacity: 0.9;
-	filter: alpha(opacity=90);
 }
 
 .button1 i {

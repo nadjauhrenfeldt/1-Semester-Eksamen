@@ -231,8 +231,8 @@ nav ul ul li {
 }
 
 .button1:hover {
-  background-color: #555;
-  color: #ffffff;
+  color: #666666;
+  border: solid 2px #666666;
 }
 
 .info {

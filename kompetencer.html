@@ -12,7 +12,6 @@
 <script src="https://use.fontawesome.com/ceabba19c9.js"></script>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </head>
-
 <body>
 <!-- Logo image --> 
 <a href="index.html"><img class="logo" src="images/logo-nadja.png" width="193" height="102" alt="Logo"/></a> 
@@ -47,9 +46,9 @@
   <section>
     <table>
       <tr>
-        <th><strong>20%</strong></th>
-        <th><strong>25%</strong></th>
-        <th><strong>25%</strong></th>
+        <th><div><span class="count">20</span> %</div></th>
+        <th><div><span class="count">25</span> %</div></th>
+        <th><div><span class="count">25</span> %</div></th>
       </tr>
       <tr>
         <td>Kode<i class="fa fa-code" aria-hidden="true"></i></td>
@@ -62,7 +61,24 @@
   <br>
   <br>
   <img src="images/kompetencer-design-kode.png" width="100%" alt="Kompetencer"/> </div>
-
+	
+<!-- Script for counter -->	
+<script>
+	
+	// Counter 
+	$('.count').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 3500,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});
+</script>
+	
 <!-- Mellemrum ned til footer--> 
 <br>
 <br>
@@ -72,5 +88,6 @@
 <div class="footer">
   <div class="footer-content"> <a href="https://www.linkedin.com/in/nadja-uhrenfeldt-ab0629138/" target="_blank" title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a> <a href="https://www.instagram.com/nadjauhrenfeldt/" target="_blank" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a> <a href="https://github.com/nadjauhrenfeldt" target="_blank" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a> </div>
 </div>
+
 </body>
 </html>

@@ -71,8 +71,9 @@ nav a {
 }
 
 nav a:hover {
-	background-color: #EAEAEA;
-	color: #ffffff;
+	/*background-color: #EAEAEA;*/
+	/*color: #ffffff;*/
+	text-decoration: underline;
 }
 
 /* Dropdown menu styles */
@@ -94,6 +95,10 @@ nav ul ul li {
 
 .myStyle {
 	display: block;
+}
+
+.aktuelside {
+	text-decoration: underline;
 }
 
 /* Responsive menu style button*/

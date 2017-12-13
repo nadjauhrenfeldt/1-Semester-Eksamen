@@ -367,6 +367,20 @@ a.link {
 	/*text-align: justify; Gør teksten mere lige linjer*/ 
 }
 
+
+/* Beskrivelse af projekt*/
+.projektbeskrivelse1 {
+	width: 50%; 
+	position: relative;
+	/*text-align: justify; Gør teksten mere lige linjer*/ 
+}
+
+.projektbeskrivelse4 {
+	width: 95%; 
+	position: relative;
+	padding-top: 90%;
+}
+
 .beskrivelse-mig {
 	width: 50%; 
 	position: relative;
@@ -374,13 +388,6 @@ a.link {
 }
 
 .beskrivelse-uddannelse {
-	width: 50%; 
-	position: relative;
-	/*text-align: justify; Gør teksten mere lige linjer*/ 
-}
-
-/* Beskrivelse af projekt*/
-.projektbeskrivelse1 {
 	width: 50%; 
 	position: relative;
 	/*text-align: justify; Gør teksten mere lige linjer*/ 
@@ -709,11 +716,6 @@ nav ul li:hover > ul {
 	padding-top: 150%;
 }
 
-.projektbeskrivelse4 {
-	width: 95%; 
-	position: relative;
-	padding-top: 90%;
-}
 
 .beskrivelse-mig {
 	width: 95%; 

@@ -555,6 +555,14 @@ td i {
 	margin-left: 7px;
 }
 
+/* Responsive menu style button*/
+button {
+	display: none;
+}
+
+.fa-bars {
+	display: none;
+}
 
 /* Responsive design */
 @-webkit-keyframes fade {
@@ -588,6 +596,63 @@ h2 {
 h3 {
 	font-size: 10px;
 }
+
+/* Responsive menu */
+button {
+	display: block;
+	float: right;
+	margin-top: 55px;
+	margin-right: 10px;
+    border: none;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+/*
+.fa-bars {
+	display: block;
+	float: right;
+	margin-top: 55px;
+	margin-right: 12px;
+	border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+	}*/
+
+	
+nav {
+	display: none;
+	background-color: #ffffff;
+	border: 1px solid black;
+	margin-left: 100%;
+}
+
+nav a {
+	padding: 7px 10px;
+}
+	
+nav ul li {
+	text-align: center;
+	width: 100%;
+	border-bottom: 1px solid black;
+}	
+	
+/* Responsive dropdown styles */
+nav ul li:hover > ul {
+	/*display: inherit;*/
+	position: static;
+	background-color: #ffffff;
+	width: 100%; 
+}		
+	
 	
 /* Button "Se mit arbejde" */
 .button {

@@ -39,6 +39,10 @@ $(function () {
 <div class="banner-image"> 
   <!-- Logo image --> 
   <a href="index.html"><img class="logo" src="images/logo-nadja.png" width="193" height="102" alt="Logo"/></a> 
+ <!-- Button responsive menu -->
+ <button onclick="myFunction()"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></button>
+  <!--<i onclick="myFunction()" class="fa fa-bars fa-2x" aria-hidden="true"></i>-->
+  
   <!-- Start main navigation -->
   <nav id="myNav">
     <ul>
@@ -136,5 +140,13 @@ $(function () {
   <div class="footer-content"><a href="https://www.linkedin.com/in/nadja-uhrenfeldt-ab0629138/" target="_blank" title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a><a href="https://www.instagram.com/nadjauhrenfeldt/" target="_blank" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a><a href="https://github.com/nadjauhrenfeldt" target="_blank" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a><a href="kontakt.html" target="_self" title="Mail"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></div>
 </div>
 
+<!-- Script for responsive menu -->
+<script>
+	function myFunction (){
+		var element = document.getElementById("myNav");
+		
+		element.classList.toggle("myStyle");
+	}
+</script>	
 </body>
 </html>

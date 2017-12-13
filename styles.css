@@ -729,6 +729,13 @@ nav ul li:hover > ul {
 	margin-left: 10px;
 }
 
+/* Overskrifter alle CV sider */
+.overskrifter-cv {
+	margin-top: 60px;
+	margin-bottom: 60px;
+	font-size: 40px;
+}
+
 /* Wrapper */
 .wrapper-content {
 	height: auto;
@@ -806,7 +813,7 @@ nav ul li:hover > ul {
 }
 	
 .button-projekter3 {
-	margin-left: 45%;
+	width: 80%;
 }
 	
 /* Projekt 3-1 */

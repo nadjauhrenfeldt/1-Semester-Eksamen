@@ -701,18 +701,19 @@ nav {
 	display: none;
 	float: right;
 	background-color: #ffffff;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	margin-left: 100%;
 }
 
 nav a {
 	padding: 7px 10px;
+	border: 1px solid black;
 }
 	
 nav ul li {
 	text-align: center;
 	width: 100%;
-	border-bottom: 1px solid black;
+	/*border-bottom: 1px solid black;*/
 }	
 	
 /* Responsive dropdown styles */
@@ -889,7 +890,22 @@ nav ul li:hover > ul {
 		display: block;
 }
 	
-/* CV - Kontakt */
-
+/* Kontakt */
+.banner-image-kontakt {
+  background-image: url(images/background3.png);
+  width: 0%;
+  height: 0%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+	
+.wrapper-kontakt {
+	float: left;
+	text-align: center;
+	height: auto;
+}
+	
 /* End media query*/
 }

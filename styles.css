@@ -102,6 +102,10 @@ nav ul ul li {
 }
 
 /* Responsive menu style button*/
+.mobile-menu {
+	display: none;
+}
+
 button {
 	display: none;
 }
@@ -649,8 +653,8 @@ td i {
   .text {font-size: 11px}
 }
 
-/* Responsive Styles with CSS media query*/
-@media all and (max-width: 768px) {
+/* Responsive Styles Mobile with CSS media query*/
+@media all and (max-width: 450px) {
 	
 	
 /* Headlines of all pages */
@@ -668,6 +672,59 @@ h3 {
 	
 /* Fælles styling */
 /* Responsive menu */
+header{
+	width:100%; 
+	background:#ffffff; 
+	line-height:60px;
+}
+.hamburger{
+  background:none;
+  position: absolute;
+  top:0;
+  right:0;
+  /*line-height:45px;*/
+  padding:5px 15px 0px 15px;
+  color:#000;
+  border:0;
+  font-size:2em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.cross{
+  background:none;
+  position:absolute;
+  top:0px;
+  right:0;
+  padding:7px 15px 0px 15px;
+  color:#000;
+  border:0;
+  font-size:4em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.mobile-menu {z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#f1f1f1;  position:absolute; text-align:center; font-size:12px;}
+.mobile-menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+.mobile-menu ul li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.mobile-menu   ul li:hover > ul{display: block;    background:#ffffff; padding:15px 0 15px 0;}
+.mobile-menu  ul li a { text-decoration:none;  margin: 0px; color:#666;}
+/*.mobile-menu  ul  li a:hover {  color: #666; text-decoration:none;}*/
+.mobile-menu  a{text-decoration:none; display: block;}
+.mobile-menu  a:hover{text-decoration:underline;}
+.mobile-menu ul ul{display: none;}
+.mobile-menu ul ul li {display: block;}
+
+header{display:inline-block; font-size:12px;}
+span{padding-left:20px;}
+a{color:#336699;}	
+	
+	
+	
+	
 button {
 	display: block;
 	float: right;
@@ -731,7 +788,7 @@ nav ul li:hover > ul {
 
 /* Logo styling */
 .logo {
-	margin-top: 52px;
+	margin-top: 10px;
 	margin-left: 10px;
 }
 
@@ -789,7 +846,8 @@ nav ul li:hover > ul {
 }
 
 .placering-dot1 {
-  padding-left: 45%;
+  /*padding-left: 45%;*/
+	display: none;
 }
 
 .button-projekter1 {
@@ -804,7 +862,8 @@ nav ul li:hover > ul {
 }
 
 .placering-dot2 {
-	padding-left: 60%;
+	/*padding-left: 60%;*/
+	display: none;
 }
 
 .button-projekter2 {
@@ -815,7 +874,11 @@ nav ul li:hover > ul {
 .projektbeskrivelse3 {
 	width: 95%; 
 	position: relative;
-	padding-top: 150%;
+	padding-top: 130%;
+}
+	
+.dot {
+	display: none;
 }
 	
 .button-projekter3 {
@@ -826,11 +889,12 @@ nav ul li:hover > ul {
 .projektbeskrivelse3-1 {
 	width: 95%; 
 	position: relative;
-	padding-top: 90%;
+	padding-top: 55%;
 }
 
 .placering-dot3-1 {
-	padding-left: 55%;
+	/*padding-left: 55%;*/
+	display: none;
 }
 
 .ikoner {
@@ -841,11 +905,12 @@ nav ul li:hover > ul {
 .projektbeskrivelse4 {
 	width: 95%; 
 	position: relative;
-	padding-top: 90%;
+	padding-top: 110%;
 }
 
 .placering-dot4 {
-	padding-left: 35%;
+	/*padding-left: 35%;*/
+	display: none;
 }
 
 .button-projekter4 {
@@ -906,6 +971,25 @@ nav ul li:hover > ul {
 	text-align: center;
 	height: auto;
 }
+/* End Mobile media query*/
+}
 	
-/* End media query*/
+
+/* Responsive Styles Tablet with CSS media query*/
+@media all and (max-width: 750px) {
+	
+/* Headlines of all pages */
+h1 {
+	font-size: 25px;
+} 
+
+h2 {
+	font-size: 20px;
+} 
+
+h3 {
+	font-size: 15px;
+}
+	
+/* End Tablet media query*/
 }

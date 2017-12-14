@@ -10,11 +10,45 @@
 <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="styles.css">
 <script src="https://use.fontawesome.com/ceabba19c9.js"></script>
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </head>
+	
 <body>
+<header>
+  <button class="hamburger">&#9776;</button>
+  <button class="cross">&#735;</button>
+</header>
+
+	
 <!-- Logo image --> 
 <a href="index.html"><img class="logo" src="images/logo-nadja.png" width="193" height="102" alt="Logo"/></a> 
+
+<!-- Start mobile navigation -->
+<div class="mobile-menu">
+	<ul>
+    <li><a href="#" target="_self">Projektsamling</a> 
+      <!-- Nested list as sub menu -->
+      <ul>
+        <li><a href="p1.html" target="_self">Projekt 1</a></li>
+        <li><a href="p2.html" target="_self">Projekt 2</a></li>
+        <li><a href="p3.html" target="_self">Projekt 3</a></li>
+        <li><a href="p3-1.html" target="_self">Projekt 3.1</a></li>
+        <li><a href="p4.html" target="_self">Projekt 4</a></li>
+        <li><a href="p5.html" target="_self">Projekt 5</a></li>
+      </ul>
+    </li>
+    <li><a href="#" target="_self" class="aktuelside">CV</a> 
+      <!-- Nested list as sub menu -->
+      <ul>
+        <li><a href="om-mig.html" target="_self">Om mig</a></li>
+        <li><a href="uddannelse.html" target="_self" class="aktuelside">Uddannelse</a></li>
+        <li><a href="kompetencer.html" target="_self">Kompetencer</a></li>
+      </ul>
+    </li>
+    <li><a href="kontakt.html" target="_self">Kontakt</a></li>
+  </ul>
+</div> 
+	
 <!-- Start main navigation -->
 <nav id="myNav">
   <ul>
@@ -71,7 +105,28 @@
 <div class="footer">
   <div class="footer-content"><a href="https://www.linkedin.com/in/nadja-uhrenfeldt-ab0629138/" target="_blank" title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a><a href="https://www.instagram.com/nadjauhrenfeldt/" target="_blank" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a><a href="https://github.com/nadjauhrenfeldt" target="_blank" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a><a href="kontakt.html" target="_self" title="Mail"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></div>
 </div>
-	
+
+<!-- Script for burgermenu: https://codepen.io/g13nn/pen/eHGEF -->
+<script>
+$( document ).ready(function() {
+
+	$( ".cross" ).hide();
+	$( ".mobile-menu " ).hide();
+	$( ".hamburger" ).click(function() {
+	$( ".mobile-menu " ).slideToggle( "slow", function() {
+	$( ".hamburger" ).hide();
+	$( ".cross" ).show();
+	});
+	});
+
+	$( ".cross" ).click(function() {
+	$( ".mobile-menu " ).slideToggle( "slow", function() {
+	$( ".cross" ).hide();	
+	$( ".hamburger" ).show();
+	});
+	});
+});
+</script>
 
 <!-- Script for counter --> 
 <script type="text/javascript">

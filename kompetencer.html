@@ -9,7 +9,9 @@
 <title>CV - Kompetencer</title>
 <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="styles.css">
+<!-- Loading font Awrsome ikoner -->
 <script src="https://use.fontawesome.com/ceabba19c9.js"></script>
+<!-- Loading jQuery from server -->
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </head>
 	
@@ -77,7 +79,6 @@
 <h1 class="overskrifter-cv">Kompetencer</h1>
 <!-- Wrapper der indeholder tabel -->
 <div class="wrapper-kompetencer">
-  <section>
     <table>
       <tr>
         <th><div><span class="count">20</span> %</div></th>
@@ -90,11 +91,10 @@
         <td>Kommunikation<i class="fa fa-align-left" aria-hidden="true"></i></td>
       </tr>
     </table>
-  </section>
   <br>
   <br>
   <br>
-  <img class="kompetancer1" src="images/kompetencer-design-kode1.png" width="100%" alt="Kompetencer"/> <img class="kompetencer2" src="images/kompetencer-responsive1.png" width="100%" alt="Kompetencer"/></div>
+  <img class="kompetancer1" src="images/kompetencer-design-kode1.png" style="width:100%" alt="Kompetencer"/> <img class="kompetencer2" src="images/kompetencer-responsive1.png" style="width:100%" alt="Kompetencer"/></div>
 	
 <!-- Mellemrum ned til footer--> 
 <br>
@@ -128,8 +128,8 @@ $( document ).ready(function() {
 });
 </script>
 
-<!-- Script for counter --> 
-<script type="text/javascript">
+<!-- Script for counter: http://www.i-visionblog.com/2014/11/jquery-animated-number-counter-from-zero-to-value-jquery-animation.html --> 
+<script>
 	
 	// Counter 
 	$('.count').each(function () {

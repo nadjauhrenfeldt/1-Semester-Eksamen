@@ -514,6 +514,36 @@ a.link {
 }
 
 /* Projekt 5 */
+.placering-dot5 {
+	padding-left: 79%;
+    width: 200%;
+}
+
+.button-projekter5 {
+	display: block;
+	padding: 10px 15px;
+	background-color: #EAEAEA;
+	width: 75%;
+	margin-left: 60%;
+	text-decoration: none;
+	color: black;
+	border-radius: 20px;
+	font-size: 14px;
+	text-align: center;
+}
+
+.button-projekter5:hover {
+    background-color: #D5D5D5;
+	color: white;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+}
+
+.projektbeskrivelse5 {
+	width: 50%; 
+	position: relative;
+	/*text-align: justify; Gør teksten mere lige linjer*/ 
+}
 
 
 
@@ -578,6 +608,16 @@ a.link {
   color: #000000;
 }
 
+.uddannelse-logo1 {
+	float: right;
+	margin-top: 10%;
+}
+
+.uddannelse-logo2 {
+	float: right;
+	padding-top: 8%;
+	text-align: center;
+}
 
 /* CV - Kompetencer */
 .wrapper-kompetencer {
@@ -941,11 +981,26 @@ nav ul li:hover > ul {
 }
 
 /* CV - Uddannelse */
+.wrapper-uddannelse {
+	height: auto;
+	width: 95%;
+	margin: auto;
+	padding-top: 50px;
+}
+
 .beskrivelse-uddannelse {
-	width: 50%; 
+	width: 95%; 
 	position: relative;
 	/*text-align: justify; Gør teksten mere lige linjer*/ 
 }
+	
+.uddannelse-logo1 {
+	display: none;
+}
+
+.uddannelse-logo2 {
+	display: none;
+}	
 	
 /* CV - Kompetencer */
 /* Kompetence billeder */	
@@ -1272,10 +1327,25 @@ nav ul li:hover > ul {
 }
 
 /* CV - Uddannelse */
+.wrapper-uddannelse {
+	height: auto;
+	width: 95%;
+	margin: auto;
+	padding-top: 50px;
+}
+
 .beskrivelse-uddannelse {
-	width: 50%; 
+	width: 95%; 
 	position: relative;
 	/*text-align: justify; Gør teksten mere lige linjer*/ 
+}
+
+.uddannelse-logo1 {
+	display: none;
+}
+
+.uddannelse-logo2 {
+	display: none;
 }
 	
 /* CV - Kompetencer */

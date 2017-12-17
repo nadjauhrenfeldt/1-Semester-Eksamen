@@ -693,8 +693,9 @@ td i {
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
-	
-/* Responsive Styles Tablet with CSS media query*/
+
+
+/* Responsive Styles medium screen with CSS media query*/
 @media all and (max-width: 750px) {
 	
 /* Headlines of all pages */
@@ -1029,10 +1030,11 @@ nav ul li:hover > ul {
 	height: auto;
 }
 		
-/* End Tablet media query*/
+/* End medium screen media query*/
 }
 
-/* Responsive Styles Mobile with CSS media query*/
+
+/* Responsive Styles small screen with CSS media query*/
 @media all and (max-width: 450px) {
 	
 	
@@ -1375,5 +1377,6 @@ nav ul li:hover > ul {
 	width: 50%;
 	height: auto;
 }
-/* End Mobile media query*/
+/* End small screen media query*/
 }
+
